@@ -23,6 +23,7 @@ var memberx = map[string]string{
 	"jamren":   hashPassword("1323jamren"),
 }
 
+// git
 func LoginHandler(c *gin.Context) {
 
 	account := USER_PASSWORD{}

@@ -19,6 +19,7 @@ const (
 	TokenURL     = "https://api.line.me/oauth2/v2.1/token"
 )
 
+// บอสทดสอบ
 func CallbackHandler(c *gin.Context) {
 
 	code := c.Query("code")
